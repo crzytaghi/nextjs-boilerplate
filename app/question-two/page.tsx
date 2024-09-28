@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { listStyle } from "../page";
 import {
   linkStyles,
+  listStyle,
   questionListStyle,
   responseStyles,
-} from "../question-one/page";
+} from "../appStyles";
 
 const QuestionTwo = () => {
   return (

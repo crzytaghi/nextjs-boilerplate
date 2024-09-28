@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { listStyle } from "./appStyles";
 
 export default function Home() {
   return (
@@ -20,37 +21,37 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link style={listStyle} href={""}>
+          <Link style={listStyle} href={"/question-two"}>
             Question Two
           </Link>
         </li>
         <li>
-          <Link style={listStyle} href={""}>
+          <Link style={listStyle} href={"/question-three"}>
             Question Three
           </Link>
         </li>
         <li>
-          <Link style={listStyle} href={""}>
+          <Link style={listStyle} href={"/question-four"}>
             Question Four
           </Link>
         </li>
         <li>
-          <Link style={listStyle} href={""}>
+          <Link style={listStyle} href={"/question-five"}>
             Question Five
           </Link>
         </li>
         <li>
-          <Link style={listStyle} href={""}>
+          <Link style={listStyle} href={"/question-six"}>
             Question Six
           </Link>
         </li>
         <li>
-          <Link style={listStyle} href={""}>
+          <Link style={listStyle} href={"/question-seven"}>
             Question Seven
           </Link>
         </li>
         <li>
-          <Link href={""} style={listStyle}>
+          <Link href={"/question-eight"} style={listStyle}>
             Question Eight
           </Link>
         </li>
@@ -58,8 +59,3 @@ export default function Home() {
     </div>
   );
 }
-
-export const listStyle = {
-  padding: 5,
-  border: "1px solid gold",
-};

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { listStyle } from "../page";
+import { listStyle, questionListStyle, responseStyles } from "../appStyles";
 
 const QuestionOne = () => {
   return (
@@ -66,24 +66,6 @@ const QuestionOne = () => {
       </div>
     </div>
   );
-};
-
-export const responseStyles = {
-  display: "flex",
-  "flex-direction": "column",
-  margin: 40,
-  gap: 20,
-};
-
-export const linkStyles = {
-  display: "flex",
-  gap: 20,
-};
-
-export const questionListStyle = {
-  display: "flex",
-  justifyContent: "center",
-  gap: 30,
 };
 
 export default QuestionOne;

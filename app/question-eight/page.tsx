@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { listStyle } from "../page";
-import { responseStyles, questionListStyle } from "../question-one/page";
+import { listStyle, questionListStyle, responseStyles } from "../appStyles";
 
 const QuestionEight = () => {
   return (
