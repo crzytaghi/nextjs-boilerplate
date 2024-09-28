@@ -20,6 +20,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  font-size: x-large;
+  font-weight: 600;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
