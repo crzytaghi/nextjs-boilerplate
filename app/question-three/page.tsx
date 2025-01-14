@@ -11,43 +11,28 @@ const QuestionThree = () => {
     <div>
       <div style={responseStyles}>
         <h1>Question Three</h1>
-        <h1>
-          A customer with a project on Vercel wants to know best practices
-          regarding redirects. Write a response explaining best practices for
-          handling redirects.
-        </h1>
         <h2>
-          Test thoroughly: Test your redirects thoroughly to ensure they work as
-          expected. Use a preview deployment to test redirects before deploying
-          them to production
+          Hi Alex, I hope this email finds you well. I wanted to reach out as
+          we've noticed some changes in your team's usage of Vercel, with a
+          reduction in builds and overall activity. I also understand that
+          Tanner, who previously led this project, is no longer with the
+          company. As the engineering manager, I would love to reconnect and
+          understand how we can best support your goals moving forward.
         </h2>
         <h2>
-          Use relative paths: Use relative paths in your destination field to
-          avoid hardcoding your domain name
+          Some areas of concern that I noticed were in the build phase, I'd love
+          to chat more about this and see if we can get to the root cause to
+          alleviate these issues and ensure you are optimized moving forward.
+          Additionally, I would love to understand how we can help align your
+          web performance with you team's goals, like increasing engagement or
+          optimizing conversions.
         </h2>
         <h2>
-          Use permanent redirects: Use permanent redirects for permanent URL
-          changes and temporary redirects for temporary changes
+          If you are available, I would like to schedule a quick call to discuss
+          your goals and challenges. Our aim is to ensure your team gets the
+          most out of our product while continuing to elevate your online
+          presence.
         </h2>
-        <h2>
-          Use wildcards carefully: Wildcards can be powerful but should be used
-          with caution. For example, if you use a wildcard in a source rule that
-          matches any URL path, you could inadvertently redirect all incoming
-          requests to a single destination, effectively breaking your site.
-        </h2>
-        <h2>
-          Prioritize HTTPS: Use redirects to enforce HTTPS for all requests to
-          your domain
-        </h2>
-        <div style={linkStyles}>
-          <Link
-            style={listStyle}
-            href={"https://vercel.com/docs/edge-network/redirects#redirects"}
-            target="blank"
-          >
-            Redirects
-          </Link>
-        </div>
       </div>
       <div>
         <ul style={questionListStyle}>
