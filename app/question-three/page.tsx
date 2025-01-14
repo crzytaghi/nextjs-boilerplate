@@ -8,19 +8,19 @@ const QuestionThree = () => {
         <h1>Question Three</h1>
         <h2>
           Hi Alex, I hope this email finds you well. I wanted to reach out as
-          we've noticed some changes in your team's usage of Vercel, with a
-          reduction in builds and overall activity. I also understand that
-          Tanner, who previously led this project, is no longer with the
+          we&apos;ve noticed some changes in your team&apos;s usage of Vercel,
+          with a reduction in builds and overall activity. I also understand
+          that Tanner, who previously led this project, is no longer with the
           company. As the engineering manager, I would love to reconnect and
           understand how we can best support your goals moving forward.
         </h2>
         <h2>
-          Some areas of concern that I noticed were in the build phase, I'd love
-          to chat more about this and see if we can get to the root cause to
-          alleviate these issues and ensure you are optimized moving forward.
+          Some areas of concern that I noticed were in the build phase, I&apos;d
+          love to chat more about this and see if we can get to the root cause
+          to alleviate these issues and ensure you are optimized moving forward.
           Additionally, I would love to understand how we can help align your
-          web performance with you team's goals, like increasing engagement or
-          optimizing conversions.
+          web performance with you team&apos;s goals, like increasing engagement
+          or optimizing conversions.
         </h2>
         <h2>
           If you are available, I would like to schedule a quick call to discuss
