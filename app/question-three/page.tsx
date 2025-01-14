@@ -1,10 +1,5 @@
 import Link from "next/link";
-import {
-  linkStyles,
-  listStyle,
-  questionListStyle,
-  responseStyles,
-} from "../appStyles";
+import { listStyle, questionListStyle, responseStyles } from "../appStyles";
 
 const QuestionThree = () => {
   return (
