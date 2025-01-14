@@ -12,14 +12,19 @@ const QuestionTwo = () => {
       <div style={responseStyles}>
         <h1>Question Two</h1>
         <h1>
-          A customer has asked, When should I choose Edge Functions, Serverless
-          Functions, or Edge Middleware with Vercel?
+          A customer has reached out asking, “When should I choose to use Edge
+          Functions, Serverless Functions, or Edge Middleware with Vercel?”
         </h1>
+        <h2>
+          Trevor, here are some of the benefits and use cases for Edge
+          Functions, Serverless Functions, and Edge Middleware
+        </h2>
         <h2>
           Edge functions are more efficiently used when being run in the
           geographical location near the user. Edge functions are built on the
           edge runtime and are more cost effective when you need lightweight
-          javascript functions.
+          javascript functions. This is great for delivering personalized
+          produce recommendations based on user preference and geolocation
         </h2>
         <h2>
           Serverless functions are better utilized for backend queries such as
@@ -34,6 +39,14 @@ const QuestionTwo = () => {
           providing personalization to statically generated content. Depending
           on the incoming request, you can execute custom logic, rewrite,
           redirect, add headers and more, before returning a response.
+        </h2>
+        <h2>
+          Recommendations for your use-case: For geolocation-based
+          personalization, I recommend combining Edge Middleware (for fast,
+          location-aware request interception) with Edge Functions (for
+          rendering personalized content or interacting with APIs like Statsig).
+          This will ensure users in restricted areas see appropriate content
+          without impacting performance.
         </h2>
         <div style={linkStyles}>
           <Link
