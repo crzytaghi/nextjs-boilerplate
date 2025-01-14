@@ -11,12 +11,14 @@ const QuestionSix = () => {
     <div>
       <div style={responseStyles}>
         <h1>Question Six</h1>
-        <h1>
-          A customer, new to Next.js and Vercel, asks about a high usage bill
-          related to fast origin transfer and fast data transfer. Write a
-          response on how to mitigate this issue, offering Vercel or Next.js
-          resources if necessary.
-        </h1>
+        <h2>
+          MIUs are monthly usage entitlements allocated to cover a portion of
+          your usage, such as data transfer and function execution. However,
+          these units are specific to the billing month and do not roll over to
+          subsequent months. If you didn&apos;t use all your MIUs last month,
+          those unused units cannot be applied to the current billing period.
+          This ensures predictable usage caps and billing cycles.
+        </h2>
         <h2>
           To optimize fast data transfer, you must optimize the assets that are
           being transferred. You can do this by using vercels image optimization
@@ -33,6 +35,21 @@ const QuestionSix = () => {
           headers to the function response, where future requests are served
           from the edge network cache rather than invoking the function again
           which reduces fast origin transfer usage and improves performance.
+        </h2>
+        <h2>
+          Here are some additional resources that might be helpful:{" "}
+          <Link
+            style={listStyle}
+            href={"https://vercel.com/docs/pricing/manage-and-optimize-usage"}
+            target="blank"
+          >
+            Manage & Optimize Usage
+          </Link>
+        </h2>
+        <h2>
+          I&apos;d be happy to schedule a call to discuss this further and walk
+          through some optimizations and explore how we can better support your
+          growth
         </h2>
         <div style={linkStyles}>
           <Link
