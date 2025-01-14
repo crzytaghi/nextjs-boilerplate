@@ -12,9 +12,11 @@ const QuestionFive = () => {
       <div style={responseStyles}>
         <h1>Question Five</h1>
         <h1>
-          A customer just starting with Vercel has questions about third-party
-          integrations for Monitoring or Logging. How would you recommend
-          options to the customer?
+          A Pro customer who typically spends $900 monthly on Vercel has
+          experienced a sudden increase to $2,100 for their next billing period
+          due to increased data transfer costs. Their main website also shows
+          poor Core Web Vitals performance, specifically a failed Largest
+          Contentful Paint score.
         </h1>
         <h2>
           Hi Travis, I hope you&apos;re doing well! I noticed a recent increase
