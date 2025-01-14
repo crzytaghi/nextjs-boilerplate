@@ -17,29 +17,37 @@ const QuestionFive = () => {
           options to the customer?
         </h1>
         <h2>
-          Vercel integrates well with third-party services like Datadog, Sentry,
-          and Logflare for monitoring and logging. For monitoring performance
-          and uptime, Datadog offers robust capabilities, while Sentry is a
-          popular choice for error tracking. Logflare, which is specifically
-          optimized for Vercel, provides real-time logging and analytics to help
-          diagnose issues quickly.
+          Hi Travis, I hope you&apos;re doing well! I noticed a recent increase
+          in your Vercel usage, with costs rising from $900 to $2,100 this
+          billing period due to higher data transfer. Additionally, I spotted
+          that your main website is showing poor Core Web Vitals performance,
+          particularly with a failed Largest Contentful Paint (LCP) score. I
+          wanted to reach out to offer guidance and explore solutions to
+          optimize your usage and performance. Areas to Explore Together
+          Increased Data Transfer: Has there been a recent spike in website
+          traffic or changes to your app that might be contributing to higher
+          data transfer? We can look at analytics and caching strategies to help
+          reduce these costs. Improving LCP Performance: A failed LCP score can
+          impact user experience and SEO. I&apos;d love to help identify
+          bottlenecks and share best practices—such as optimizing image loading
+          and leveraging Vercel&apos;s built-in performance tools—to get your
+          website performing at its best. Future Growth: As your business
+          scales, we can explore how Vercel&apos;s features and even Enterprise
+          options could better support your growing team and ensure cost
+          efficiency moving forward. If you&apos;re open to it, I&apos;d love to
+          schedule a call to dive into these topics and work toward a tailored
+          solution that benefits your team. Let me know your availability, and
+          we can get started! Looking forward to hearing from you.
         </h2>
         <div style={linkStyles}>
           <Link
             style={listStyle}
             href={
-              "https://blog.sentry.io/enable-suspect-commits-unminify-js-and-track-releases-with-vercel-and-sentry/"
+              "https://vercel.com/guides/optimizing-core-web-vitals-in-2024"
             }
             target="blank"
           >
-            Sentry
-          </Link>
-          <Link
-            style={listStyle}
-            href={"https://docs.logflare.app/integrations/vercel/"}
-            target="blank"
-          >
-            LogFlare
+            Optimizing Web Core Vitals
           </Link>
         </div>
       </div>
