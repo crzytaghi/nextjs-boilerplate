@@ -56,6 +56,15 @@ const QuestionSeven = () => {
           >
             JWT Authentication
           </Link>
+          <Link
+            style={listStyle}
+            href={
+              "https://vercel.com/docs/incremental-migration/migration-guide"
+            }
+            target="blank"
+          >
+            Incremental Migration Guide
+          </Link>
         </div>
       </div>
       <div>

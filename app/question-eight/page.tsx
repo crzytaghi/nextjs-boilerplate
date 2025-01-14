@@ -8,11 +8,9 @@ const QuestionEight = () => {
         <h1>Question Eight</h1>
         <h1>How could we improve or alter this familiarization exercise?</h1>
         <h2>
-          To improve this exercise, consider providing more scenario-based
-          challenges that require interacting with actual Vercel tools or
-          platforms. Additionally, incorporating more hands-on practice with key
-          features like Edge Functions or Secure Middleware could deepen
-          understanding.
+          Base on previous experience with this exercise, I feel as though there
+          has been improvements made in incorporating more scenario-based
+          challenges.
         </h2>
       </div>
       <div>
